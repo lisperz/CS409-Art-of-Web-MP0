@@ -1,0 +1,25 @@
+{
+  "homepage": "https://cs409-fa25.github.io/mp0",
+  "name": "mp0",
+  "version": "1.0.0",
+  "description": "CS498RK MP0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "clean": "rm -rf build",
+    "start": "webpack serve --mode development --open",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "UIUC Web Programming Staff",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.6.4",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  }
+}
